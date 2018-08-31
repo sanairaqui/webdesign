@@ -1,4 +1,9 @@
+body{
+    background-color:pink;
+}
+
 @keyframes slider{
+
 
     0% {
         left:0%;
@@ -27,7 +32,7 @@
     slider{
         overflow:hidden;
     }
- slider img{
+ slider figure img{
 width:25%;
 float:left;
     }
