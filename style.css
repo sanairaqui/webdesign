@@ -26,7 +26,7 @@ nav ul li a {
     text-decoration:none;
 padding:0 30px;
 line-height:30px;
-border-right:1px solid white;
+border-right:1px dotted white;
 }
 nav ul li a:hover{
     background-color:greenyellow;
