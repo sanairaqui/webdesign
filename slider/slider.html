@@ -1,18 +1,64 @@
 <html>
     <head>
         <title>Image Slider 1 1</title>
-        <link rel="stylsheet" type="text/css" href="slider.css">
+        <style>
+            body{
+                background-color: aqua;
+            }
+      @keyframes slider {
+        0%{
+            left:0%;
+        }  
+        20%{
+            left: 0%;
+        }
+        25%{
+            left: -100%;
+        }
+        45%{
+            left:-100%;
+        }
+        50%{
+            left: -200%;
+        }
+        70%{
+            left: -200%;
+        }
+        75%{
+            left: -300%;
+        }
+        95%{
+            left:-300%;
+        }
+        100%{
+            left: -400%;
+        }
+      }
+    #slider figure img{
+          width:20%;
+          float: left;
+      }
+      #slider figure{
+          position: relative;
+          width:500%;
+          margin:0;
+          left:0;
+          animation:20s slider infinite;
+      }
+
+        </style>
     </head>
     <body>
-        <div id="slider">
-            <figure>
-                <img src="C:\Users\user\Pictures/lotustemple.jpg">
-                <img src="C:\Users\user\Pictures/Qutub-Minar.jpg">
-                <img src="C:\Users\user\Pictures/tajmahal.jpg">
-                <img src="C:\Users\user\Pictures/redfort.jpg">
-                <img src="C:\Users\user\Pictures/monument.jpg">
-                <img src="C:\Users\user\Pictures/Indiagate.jpg">
-            </figure>
-        </div>
+      <figure>
+          <div id="slider">
+              <img src="C:\Users\user\Pictures/tajmahal.jpg" >
+              <img src="C:\Users\user\Pictures/Qutub-Minar.jpg" >
+              <img src="C:\Users\user\Pictures/Indiagate.jpg" >
+              <img src="C:\Users\user\Pictures/redfort.jpg" >
+              <img src="C:\Users\user\Pictures/lotus temple.jpg" >
+              <img src="C:\Users\user\Pictures/monument.jpg" >
+          </div>
+      </figure>  
     </body>
+   
 </html>
